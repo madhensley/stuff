@@ -1,11 +1,11 @@
 # Script to define regional settings on Azure Virtual Machines deployed from the market place
 # Author: Alexandre Verkinderen
 # Blogpost: https://mscloud.be/configure-regional-settings-and-windows-locales-on-azure-virtual-machines/
-#
+# Edited by madhensley
 ######################################33
 
 #variables
-$regionalsettingsURL = "https://raw.githubusercontent.com/averkinderen/Azure/master/101-ServerBuild/AURegion.xml"
+$regionalsettingsURL = "https://raw.githubusercontent.com/madhensley/stuff/master/DERegion.xml"
 $RegionalSettings = "D:\DERegion.xml"
 
 
