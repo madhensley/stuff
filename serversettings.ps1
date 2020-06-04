@@ -6,8 +6,8 @@ Start-Transcript -path C:\Logs\ServerSettings.log -append
 # Write-Verbose "Set time zone W. Europe Standard Time on."
 # Set-TimeZone -Id "W. Europe Standard Time"
 
-Write-Verbose "Disable automatic windows update installation."
-reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU" /v NoAutoUpdate /t REG_DWORD /d 1 /f
+# Write-Verbose "Disable automatic windows update installation."
+# reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU" /v NoAutoUpdate /t REG_DWORD /d 1 /f
 
 Write-Verbose "Set up time zone redirection."
 reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services" /v fEnableTimeZoneRedirection /t REG_DWORD /d 1 /f
